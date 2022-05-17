@@ -8,5 +8,6 @@ public class MainBuilder {
                 .password("123")
                 .build();
         System.out.println(user);
+
     }
 }
