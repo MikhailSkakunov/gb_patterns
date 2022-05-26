@@ -10,6 +10,14 @@ public class User {
         this.surname = surname;
     }
 
+    public void createUser() {
+        System.out.println("User created!");
+    }
+
+    public void saveUser(User user) {
+        System.out.println("User saved!!!" + " " + user.toString());
+    }
+
     @Override
     public String toString() {
         return "User{" +
